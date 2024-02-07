@@ -1,0 +1,27 @@
+.bod{
+    background-image: linear-gradient(#8cb4ff, #b8fff0);
+}
+
+.exp{
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+
+p{
+    font-size: larger;
+}
